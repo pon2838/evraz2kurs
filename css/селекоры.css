@@ -1,0 +1,48 @@
+ .block{
+      background-color: aquamarine;
+      font-size: 18px;
+     width: 200px;
+     display: inline-block;
+     /*height: 300px;*/
+    }
+
+ .block:hover {
+     box-shadow: 0 0 15px black;
+ }
+
+.block > div {
+    background-color: antiquewhite;
+}
+
+ .block > div  > div {
+     color: chartreuse;
+ }
+
+    .text-white {
+       color: white;
+    }
+
+    #d1 {
+       background-color: brown;
+        /*position: fixed;*/
+        /*bottom: 0px;*/
+        /*left: 0px;*/
+        /*position: absolute;*/
+        /*right: 0px;*/
+        /*top: 0px;*/
+
+    }
+
+    #d1 h3 {
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    p {
+        background-color: #ff9268;
+    }
+
+    p:hover {
+        color: gold;
+    }
