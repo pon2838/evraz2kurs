@@ -7,7 +7,7 @@
     }
 
  .block:hover {
-     box-shadow: 0 0 15px black;
+     box-shadow: 0 0 15px #b30000;
  }
 
 .block > div {
@@ -19,7 +19,7 @@
  }
 
     .text-white {
-       color: white;
+       color: #912121;
     }
 
     #d1 {
