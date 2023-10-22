@@ -1,0 +1,83 @@
+.block{
+    background-color: aquamarine;
+    font-size: 18px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.text-white1 {
+    color: #ffffff;
+    background-color: #491212;
+}
+
+
+.text-white2 {
+    color: #ffffff;
+    background-color: #595517;
+}
+
+.text-white3 {
+    color: #ffffff;
+    background-color: #1c4f13;
+}
+
+.text-white4 {
+    color: #ffffff;
+    background-color: #175947;
+}
+
+
+#d1 {
+    background-color: #d51b1b;
+    /*bottom: 450px;*/
+    /*left: 150px;*/
+    position: absolute;
+    /*right: 0px;*/
+    top: 125px;
+}
+
+#d2 {
+    background-color: #cec425;
+    bottom: 450px;
+    left: 150px;
+    position: absolute;
+    /*right: 0px;*/
+    /*top: 0px;*/
+}
+
+#d3 {
+    background-color: #4ace25;
+    bottom: 250px;
+    left: 500px;
+    position: absolute;
+    /*right: 0px;*/
+    /*top: 0px;*/
+}
+
+#d4 {
+    background-color: #25cea1;
+    /*bottom: 450px;*/
+    left: 650px;
+    position: absolute;
+    /*right: 0px;*/
+    /*top: 0px;*/
+}
+
+
+#p1 .text-white {
+    color: #000000;
+}
+#p2 .text-white {
+    color: #000000;
+}
+#p3 .text-white {
+    color: #000000;
+}
+#p4 .text-white {
+    color: #000000;
+}
+
+.block1 > div {
+    background-color: #491212;
+}

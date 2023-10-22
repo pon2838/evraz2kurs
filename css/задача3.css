@@ -1,0 +1,63 @@
+.block{
+    font-size: 16px;
+    
+    /*display: inline-block;*/
+    /*height: 300px;*/
+}
+
+
+.text-white1 {
+    color: #ffffff;
+    background-color: #491212;
+}
+
+
+.text-white2 {
+    color: #ffffff;
+    background-color: #595517;
+}
+
+.text-white3 {
+    color: #ffffff;
+    background-color: #1c4f13;
+}
+
+.text-white4 {
+    color: #ffffff;
+    background-color: #175947;
+}
+
+
+#d1 {
+    background-color: #d51b1b;
+}
+
+#d2 {
+    background-color: #cec425;
+}
+
+#d3 {
+    background-color: #4ace25;
+}
+
+#d4 {
+    background-color: #25cea1;
+}
+
+
+#p1 .text-white {
+    color: #000000;
+}
+#p2 .text-white {
+    color: #000000;
+}
+#p3 .text-white {
+    color: #000000;
+}
+#p4 .text-white {
+    color: #000000;
+}
+
+.block1 > div {
+    background-color: #491212;
+}
