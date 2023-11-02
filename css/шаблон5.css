@@ -1,0 +1,43 @@
+.block{
+    /*font-size: 2000px;*/
+    /*width: 1px;*/
+    /*display: inline-block;*/
+    /*height: 1px;*/
+}
+body {
+    margin: 0;
+}
+
+#head {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d {
+    content: url("logo.png");
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#b {
+    font-size: 35px;
+}
+
+.t {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*.col-1 {*/
+/*    padding-left: 500px;*/
+/*    padding-top: 250px;*/
+/*}*/
+
+#head .body {
+    display: flex;
+    flex-direction: row;
+}
