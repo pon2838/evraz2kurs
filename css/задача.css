@@ -1,12 +1,12 @@
-.block{
+.block {
     font-size: 16px;
     width: 200px;
-    /*display: inline-block;*/
-    /*height: 300px;*/
+    display: inline-block;
+    height: 100px;
 }
 
 
-.text-white1 {
+    .text-white1 {
     color: #ffffff;
     background-color: #491212;
 }
