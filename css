@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+
+.head {
+    background-image: url('bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.a {
+    display: flex;
+    flex-direction: row;
+}
