@@ -13,7 +13,24 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .a {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    margin: auto;
+}
+
+.b {
+    margin: auto;
+}
+
+
+#text_height {
+    font-size: 30px;
+}
+
+#height {
     display: flex;
-    flex-direction: row;
+    width: 400px;
+    height: 200px;
 }
