@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .item {
+            border-bottom: 2px solid rgba(0,0,0,0.3);
+            padding: 20px 50px;
+            background-color: rgba(246, 228, 14, 0.2);
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+<form id = "from">
+    <div>
+        <label for="title">Заголовок</label>
+        <input
+                type="text"
+                id="title"
+                placeholder="Здесь указать заголовок"
+        >
+    </div>
+    <div>
+        <label for="description">Описание</label>
+        <input
+                type="text"
+                id="description"
+                placeholder="А здесь описание"
+        >
+    </div>
+</form>
+<div>
+    <button id = 'add'>Добавить товар</button>
+</div>
+<div>
+    <h3>Товары</h3>
+    <div id="list"></div>
+</div>
+<script src="списки.js"></script>
+</body>
+</html>
