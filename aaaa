@@ -1,0 +1,8 @@
+fastify.post('/test', async function (request, reply) {
+    const data = await axios.get( url: 'https://fakestoreapi.com/products')
+
+    catch (e) {
+        console.log(e)
+    }
+    reply.send(data.data);
+})
