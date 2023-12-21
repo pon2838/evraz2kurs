@@ -1,1 +1,0 @@
-# evraz2kurs1

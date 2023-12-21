@@ -17,6 +17,8 @@ const button_plus = document.getElementById('button_plus');
 const button_comma = document.getElementById('button_comma');
 const button0 = document.getElementById('button0');
 const button_equals = document.getElementById('button_equals');
+const div = document.getElementById('div');
+
 
 // const div = document.getElementById('div');
 
@@ -32,6 +34,10 @@ if (button1) {
         // console.log(event.target)
         // console.log(event.target.innerText)
         a = a + '1'
+
+
+        div.innerText += '1'
+
 
         // console.log(input.value);
         // input.value = '20+20'
@@ -132,16 +138,8 @@ if (button_equals) {
     });
 }
 
-const text = `<div class="item-title">${ title }</div>
-                      <div class="item-description">${ description }</div>`;
-const newDiv = document.createElement('div');
-newDiv.innerHTML = text;
-newDiv.classList.add('item');
-listDOM.appendChild(newDiv);
-
 // titleDOM.value = '';
 // descriptionDOM.value = '';
-formDOM.reset();
 // body.addEventListener('click', function (event){
 //     console.log(event);
 //     console.log(event.target)
