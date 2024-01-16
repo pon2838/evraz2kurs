@@ -1,4 +1,5 @@
 // CommonJs
+import axios from 'axios'
 const fastify = require('fastify')({
     logger: true
 })
@@ -18,7 +19,7 @@ fastify.post('/products', function (request, reply){
     reply.send({ succes: true});
 });
 
-fastify.get('/carts', async function (requst, reply){
+fastify.get('/carts', async function (request, reply){
     try {
         const data = await  axios.get('https://fakestoreapi.com/carts')
         reply.send(data.data)
