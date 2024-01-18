@@ -8,7 +8,7 @@
 <div>Форма добавления товара</div>
 <div>
     <div>Название</div>
-    <input type="text" placeholder="Прим: Гаечные ключи">
+    <input id="title" type="text" placeholder="Прим: Гаечные ключи">
 </div>
 <div>
     <div>Категория</div>
@@ -41,16 +41,22 @@
 </div>
 <div>
     <p>Особенности</p>
-    <P><input type="checkbox" name="a" value="Б/У">Б/У</P>
-    <P><input type="checkbox" name="a" value="Хрупкий">Хрупкий</P>
+    <div>
+        <input type="checkbox" name="a" value="Б/У">Б/У
+    </div>
+    <div>
+        <input type="checkbox" name="a" value="Хрупкий">Хрупкий
+    </div>
+
 </div>
 <div>
     <div>Описание</div>
-    <input type="text"  placeholder="Добавьте описание">
+    <input id="description" type="text"  placeholder="Добавьте описание">
 </div>
 <button id="button">Добавить товар</button>
 
-<script async src="Товары.js"></script>
+
 <div>Товары</div>
+<script async src="Товары.js"></script>
 </body>
 </html>
