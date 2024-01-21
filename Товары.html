@@ -5,58 +5,65 @@
     <title>Title</title>
 </head>
 <body>
-<div>Форма добавления товара</div>
-<div>
-    <div>Название</div>
-    <input id="title" type="text" placeholder="Прим: Гаечные ключи">
-</div>
-<div>
-    <div>Категория</div>
-    <p><input name="categories" list="var" placeholder="Выберите один из вариантов">
-    <datalist id="var">
-        <option value="Продукты"></option>
-        <option value="Техника"></option>
-        <option value="Украшения"></option>
-        <option value="Товары для дома"></option>
-        <option value="Одежда"></option>
-    </datalist></p>
-</div>
-<div>
-    <div>Стоимость, руб</div>
-    <input type="number">
-</div>
-<div>
-    <div>Количество</div>
-    <input type="number">
-</div>
-<div>
-    <div>Есть скидка?</div>
+<form id="form">
+    <div>Форма добавления товара</div>
     <div>
-        <input type="radio" id="ch1" name="ch" checked> <label for="ch1">Да</label>
+        <div>
+            <label for="title">Заголовок</label>
+            <input
+                    type="text"
+                    id="title"
+                    placeholder="Здесь указать заголовок"
+            >
+        </div>
     </div>
     <div>
-        <input type="radio" id="ch2" name="ch" checked> <label for="ch2">Нет</label>
-    </div>
+        <label for="category">категория</label>
+        <input name="category" list="var" placeholder="Выберите один из вариантов">
+        <datalist id="var">
+            <option value="Продукты"></option>
+            <option value="Техника"></option>
+            <option value="Украшения"></option>
+            <option value="Товары для дома"></option>
+            <option value="Одежда"></option>
+        </datalist>
 
-</div>
-<div>
-    <p>Особенности</p>
+        <div>Стоимость, руб</div>
+        <input type="number">
+    </div>
     <div>
-        <input type="checkbox" name="a" value="Б/У">Б/У
+        <div>Количество</div>
+        <input type="number">
     </div>
     <div>
-        <input type="checkbox" name="a" value="Хрупкий">Хрупкий
+        <div>Есть скидка?</div>
+        <div>
+            <input type="radio" id="ch1" name="ch" checked> <label for="ch1">Да</label>
+        </div>
+        <div>
+            <input type="radio" id="ch2" name="ch" checked> <label for="ch2">Нет</label>
+        </div>
+
     </div>
-
-</div>
+    <div>
+        <p>Особенности</p>
+        <P><input type="checkbox" name="a" value="Б/У">Б/У</P>
+        <P><input type="checkbox" name="a" value="Хрупкий">Хрупкий</P>
+    </div>
+    <div>
+        <label for="description">Описание</label>
+        <input
+                type="text"
+                id="description"
+                placeholder="А здесь описание"
+        >
+    </div>
+</form>
+<button id="add">Добавить товар</button>
 <div>
-    <div>Описание</div>
-    <input id="description" type="text"  placeholder="Добавьте описание">
+    <h3>Товары</h3>
+    <div id="list"></div>
 </div>
-<button id="button">Добавить товар</button>
-
-
-<div>Товары</div>
-<script async src="Товары.js"></script>
+<script src="Товары.js"></script>
 </body>
 </html>
