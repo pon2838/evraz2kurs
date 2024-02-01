@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script> src = "самостоятельная.js"</script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function() {
+            var button = document.getElementById('input_button_bg_change');
+            var body = document.getElementsByTagName('body')[0];
+            var colors = ['blue', 'grey', 'black', 'white', 'red', 'green', '#aaa', '#FFAACC', 'rgb(122,111,110)'];
+            button.onclick = function() {
+                body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            };
+        };
+    </script>
+</head>
+<body>
+<input type="button"  id="input_button_bg_change"  value="Изменить цвет фона"/>
+</body>
+</html>

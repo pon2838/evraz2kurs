@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script> src = "самостоятельная.js"</script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function() {
+            var button = document.getElementById('input_button_bg_change');
+            var button1 = document.getElementById('input_button_bg_change1');
+            var button2 = document.getElementById('input_button_bg_change2');
+            var body = document.getElementsByTagName('body')[0];
+            var blue = ['blue'];
+            var red = ['red'];
+            var yellow = ['yellow'];
+            button.onclick = function() {
+                body.style.backgroundColor = blue;
+            };
+            button1.onclick = function() {
+                body.style.backgroundColor = red;
+            };
+            button2.onclick = function() {
+                body.style.backgroundColor = yellow;
+            };
+        };
+    </script>
+</head>
+<body>
+<input type="button"  id="input_button_bg_change"  value="синий"/>
+<input type="button"  id="input_button_bg_change1"  value="красный"/>
+<input type="button"  id="input_button_bg_change2"  value="жёлтый"/>
+</body>
+</html>
