@@ -5,15 +5,14 @@ async function getUser() {
         const response = await axios.get('https://fakestoreapi.com/products');
         console.log(response.data);
 
-        try {
-            const response = await axios.get('https://fakestoreapi.com/products');
-            console.log(response.data);
-        }
+
+        const response2 = await axios.get('https://fakestoreapi.com/products');
+        console.log(response2.data);
+    }
      catch (error)
 {
     console.error(error.message);
-
-}
+}}
 
         /**
          * функция для добавления нового пользователя
@@ -28,12 +27,12 @@ async function getUser() {
          */
 
 
-async function addNewUser(userInfo, userBio, userAddress) {
-            try {
-                const url = ('https://fakestoreapi.com/users')
-            }
-        }
-}
+// async function addNewUser(userInfo, userBio, userAddress) {
+//             try {
+//                 const url = ('https://fakestoreapi.com/users')
+//             }
+//         }
+// }
 
 
 
